@@ -16,8 +16,7 @@ for i in range(1,len(bt)):
 	avgtat+=tat[i]
 avgwt=float(avgwt)/n
 avgtat=float(avgtat)/n
-print("\n")
-print("Process \t Burst Time\t Waiting Time\t TurnAround Time")
+print("\n Process \t Burst Time\t Waiting Time\t TurnAround Time")
 for i in range(0,n):
 	print(str(i)+"\t\t"+str(bt[i])+"\t\t"+str(wt[i])+"\t\t"+str(tat[i]))
 	print("\n")

@@ -13,7 +13,7 @@ void forkexample()
 		printf("Parent Process \n");
 }
 
-int main()
+void main()
 {
 	int fds[2];
 	pipe(fds);
