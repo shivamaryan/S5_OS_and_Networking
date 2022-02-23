@@ -16,7 +16,7 @@ class TwoServer
 		
 		OutputStream os = s1.getOutputStream();
 		DataOutputStream dos = new DataOutputStream(os);
-		dos.writeUTF("Fuck off client bitch");
+		dos.writeUTF("Back off client mate");
 		
 		
 	}
